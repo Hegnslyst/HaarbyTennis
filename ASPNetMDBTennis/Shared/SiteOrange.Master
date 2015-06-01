@@ -1,0 +1,130 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteOrange.master.cs" Inherits="ASPNetMDBTennis.SiteOrangeMaster" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="Description of your web page goes here." />
+<meta name="keywords" content="Keywords for you web page go here. Each keyword or group of keyword phrases are separated by a comma. Keep this  list short and relevant to the content and title of this specific page." />
+<title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+<link rel="shortcut icon" href="../../Content/images/favicon.ico" />
+ <link href="/Styles/OrangeSite.css" rel="stylesheet" type="text/css" />
+<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+<script type="text/javascript">
+    image = new Array(9)
+for (var i = 0; i < image.length ; i++) {	
+	image[i] = new Image(150,120)	
+	image[i].src = "../Content/Reklamer/Reklame" + (i+1) + ".JPG"
+	
+}
+
+function checkTimer() {
+	
+	var newIndex = 0
+	var gifName = document.billede.src
+	var gifIndex = (gifName.charAt(gifName.length - 5)) - 1
+	if (gifIndex < image.length - 1) {
+		newIndex = gifIndex + 1
+	
+	}
+	document.billede.src = image[newIndex].src
+	var timeoutID = setTimeout("checkTimer()",5000)
+
+}
+
+</script>
+</head>
+<body onload="checkTimer()">
+  <form id="Form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnableCdn="false" EnablePageMethods="true" />
+        <div class="none"><a href="#maincontent">skip to the main content area of this page</a></div>
+        <div class="header-container">
+            
+            <div class="nav-login">
+                <ul>
+                 <asp:LoginView ID="HeadLoginView" runat="server" EnableViewState="false">
+                     <AnonymousTemplate>
+                        [ <a href="~/Account/Register.aspx" ID="HeadLoginStatus" runat="server">Register</a> ]
+                    </AnonymousTemplate>
+                     <AnonymousTemplate>
+                        [ <a href="~/Account/Login.aspx" ID="HeadLoginStatus" runat="server">Log Ind</a> ]
+                    </AnonymousTemplate>
+                    <LoggedInTemplate>
+                        Velkommen <span class="bold"><asp:LoginName ID="HeadLoginName" runat="server" /></span>!
+                        [ <asp:LoginStatus ID="HeadLoginStatus" runat="server" LogoutAction="Redirect" LogoutText="Log Out" LogoutPageUrl="~/"/> ]
+                    </LoggedInTemplate>
+                </asp:LoginView>
+           
+                </ul>
+            </div>
+              <div class="logo">Haarby Tennisklub</div>
+            
+            <div class="clear"></div>
+        </div>
+        <div class="poster-container-no-image">
+            <div class="poster-inner"> </div>
+        </div>
+        <div class="nav-main">
+            <div id="Soeg" runat="server" visible="true">
+            <ul>
+    
+                <li> <a href="/UI/Velkommen.aspx">Home</a></li>
+                <li> <a href="/UI/Kontakt.aspx">Kontakt bestyrelsen</a></li>
+                <li> <a href="/UI/Kalender.aspx">Kalender</a></li>
+                <li> <a href="/UI/Nyheder.aspx">Nyheder</a></li>
+                <li> <a href="/UI/Træning.aspx">Træning</a></li>
+                <li> <a href="/UI/FindVej.aspx">Find vej</a></li>
+               
+                       
+
+
+
+            </ul>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="content-container-inner">
+
+               <div class="content-main">
+                    <a name="maincontent" id="maincontent"></a>
+        
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                  
+                </div>
+		        <div class="content-left">
+                    <div class="side-bucket">
+                        <ul>
+                            <li> <a href="../Content/Indbydelser og Aktiviteter/Tennisfolder_2015.pdf" target="_blank">Klubfolder 2015</a></li>                           
+                            <li> <a href="/UI/Banereservation.aspx">Banereservation</a></li>
+                            <li> <a href="/UI/Klubrelationer.aspx">DTF & FTU</a></li>                                                    
+                            <li> <a href="/UI/VinterTennis.aspx">Indendørs tennis</a></li>
+                            <li> <a href="/UI/Generalforsamlinger.aspx">Generalforsamlinger</a></li>
+                            <li> <a href="/UI/Opslagstavle.aspx">Opslagstavlen</a></li>
+                            <li> <a href="/UI/Kontingent.aspx">Kontingent</a></li>
+                            <li> <a href="/UI/Vedtægter.aspx">Vedtægter</a></li>
+                           
+                        </ul>
+                        <br />
+                        <br />
+                        <br />
+                        <img alt="Reklamer" src="../Content/Reklamer/Reklame1.JPG"  name="billede" width="150" height="120" />
+                    </div>
+                </div><!-- slut class="content-left" -->
+              
+                <div class="clear"></div>
+            </div> <!-- class="content-container-inner" -->
+        </div> <!-- slut class="content-container" -->
+        <div class="footer">
+            <div class="nav-footer">
+                <ul>
+          
+                </ul>
+                <p class="copyright">&copy; 2015 Haarby Tennisklub</p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>

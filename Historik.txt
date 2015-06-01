@@ -1,0 +1,8 @@
+
+16-11-2014: Version 1.2: Gridview erstattet af listview kontrol og updatepanel i AdminMedlemmer.aspx 
+16-07-2014: Fejl vedr. afsendelse af mail fundet at Tim på Azero (Jeg har nu tilladt den udgående forbindelser påport 587 på serveren Judy, og nu ser det fint ud).
+15-07-2014: Fejllogning aktiveret med ny tabel i Administration.
+01-07-2014: Version med Administrations side. 
+19-04-2014: Træning.aspx.cs: Link til NyhedsbrevMinitennishallen2014.pdf er rettet.
+18-04-2014: version 1.0 
+Udestående: Validering af numerisk værdier (telefon)

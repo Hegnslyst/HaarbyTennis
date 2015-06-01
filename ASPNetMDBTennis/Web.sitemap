@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+	<siteMapNode title="Home" url="~/Default.aspx" >
+		<siteMapNode title="Velkommen" url="~/VelkomstView.aspx" />
+		<siteMapNode title="Nyheder" url="Main/NyhederView.aspx" />
+		<siteMapNode title="Medlemsskab" url="Main/MedlemskabView.aspx" />
+		<siteMapNode title="Juniorer" url="Main/JuniorView.aspx" />
+		<siteMapNode title="Seniorer" url="Main/SeniorView.aspx" />
+		<siteMapNode title="Kontakt" url="Main/KontaktView.aspx" />
+		<siteMapNode title="Kalender" url="Main/KalenderView.aspx" />
+		<siteMapNode title="Bestyrlsesmøder" url="Main/BestyrelsesmøderView.aspx" />
+		<siteMapNode title="Klubmesterskaber" url="Main/KlubmesterskabverView.aspx" />
+		<siteMapNode title="Generalforsamlinger" url="Main/GeneralforsamlingerView.aspx" />
+		<siteMapNode title="Galleri" url="Main/GalleriView.aspx" />
+		<siteMapNode title="Links" url="Main/LinkisView.aspx" />
+		<siteMapNode title="Gæstebog" url="Main/GæstebogView.aspx" />
+		
+	</siteMapNode>
+
+</siteMap>

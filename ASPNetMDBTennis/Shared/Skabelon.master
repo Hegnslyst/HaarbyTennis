@@ -1,0 +1,122 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Skabelon.master.cs" Inherits="Skabelon" %>
+<%@ Register Src="Controls/ThemeSelector.ascx" TagName="ThemeSelector" TagPrefix="ht" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Haarby Tennis</title>
+    
+     <script type="text/javascript">
+    /* <![CDATA[ */ 
+        function AdjustColumnsHeight()
+        {
+            // get a reference to the three DIVS that make up the columns
+            //var centerCol = window.document.getElementById('centercol');
+            //var leftCol = window.document.getElementById('leftcol');
+            //var rightCol = window.document.getElementById('rightcol');
+            // calculate the max height
+            //var hCenterCol = centerCol.offsetHeight;
+            //var hLeftCol = leftCol.offsetHeight;
+            //var hRightCol = rightCol.offsetHeight;
+            //var maxHeight = Math.max(hCenterCol);//, Math.max(hLeftCol, hRightCol));
+            // set the height of all 3 DIVS to the max height
+            //centerCol.style.height = maxHeight + 'px';
+            //leftCol.style.height = maxHeight + 'px';
+            //rightCol.style.height = maxHeight + 'px';            
+            // Show the footer
+            window.document.getElementById('footer').style.visibility = 'inherit';
+        }
+        window.onload = function() { AdjustColumnsHeight(); }   
+    /* ]]> */       
+    </script>
+</head>
+<body>
+    <form id="Main" runat="server">
+    <div id="header">
+        <table>
+            <tr>
+            <td width="800">
+            
+            </td>
+                <td>
+                    
+                    <table>    
+                       <tr>
+                            <td align="right">Celle</td>
+                            <td align="right">Login box here</td>
+                               
+                            <td align="right">
+                                <ht:ThemeSelector id="ThemeSelector1" runat="server" />
+                            </td>
+                       </tr>                                                         
+                    </table>
+                </td>
+                
+            </tr>
+         </table>
+    </div>
+
+  
+    <div id="breadcrumb">  
+        <table>
+              <tr>
+                  <td>
+                     <asp:SiteMapPath ID="SiteMapPath1" runat="server" />
+                  </td>
+              </tr>
+        </table>
+    </div>
+    <div id="centerInformation">  
+      <table>
+        <tr>
+            <td valign="top" width="200">
+              <asp:SiteMapDataSource ID="SiteMapDataSource1"
+                   runat="server" StartingNodeOffset="0" />
+                <asp:Menu ID="mnuHeader" runat="server"
+                   CssClass="headermenulink"
+                   DataSourceID="SiteMapDataSource1"
+                   Orientation="Vertical"
+                   MaximumDynamicDisplayLevels="0"
+                   SkipLinkText=""
+                   StaticDisplayLevels="4" OnMenuItemClick="mnuHeader_MenuItemClick" />
+
+            </td>
+            <td>
+                <asp:ContentPlaceHolder ID="MainContent" runat="server"> </asp:ContentPlaceHolder>
+            </td>
+        </tr>      
+      </table>  
+      </div>
+       
+     <div id="footer"> 
+         <table>
+             <tr>
+                <td>
+                      <asp:Menu ID="mnuFooter" runat="server"
+                     style="margin-left:auto; margin-right:auto;"
+                     CssClass="footermenulink"
+                     DataSourceID="SiteMapDataSource1"
+                     Orientation="Horizontal"
+                     MaximumDynamicDisplayLevels="0"
+                     SkipLinkText=""
+                     StaticDisplayLevels="2" />
+                </td>
+             </tr>
+         </table>
+     </div>
+        
+     <div id="footertext">           
+         <table>
+             <tr>
+                 <td>
+                  <small>Copyright &copy; 2002 Haarby tennisklub </small>
+                 </td>
+             </tr>
+         </table>                  
+      </div>
+      
+    
+    </form>
+</body>
+</html>

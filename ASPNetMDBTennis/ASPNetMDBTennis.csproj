@@ -1,0 +1,723 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{FBBC3E27-3761-4683-BA8F-D9910889AFC8}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ASPNetMDBTennis</RootNamespace>
+    <AssemblyName>ASPNetMDBTennis</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>4.0</OldToolsVersion>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EPPlus">
+      <HintPath>..\packages\EPPlus.4.0.0-beta2\lib\net20\EPPlus.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="About.aspx" />
+    <Content Include="Account\ChangePassword.aspx" />
+    <Content Include="Account\ChangePasswordSuccess.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Admin\AdminMedlemmer.aspx" />
+    <Content Include="Admin\BaneBooking.aspx" />
+    <Content Include="Admin\Dokumenter.aspx" />
+    <Content Include="Admin\Kalender.aspx" />
+    <Content Include="Admin\Kvittering.aspx" />
+    <Content Include="Admin\MailAdmin.aspx" />
+    <Content Include="Admin\Nyheder.aspx" />
+    <Content Include="Admin\Nyhedsbreve.aspx" />
+    <Content Include="Carousel.html" />
+    <Content Include="Content\Dokumenter Bestyrelse\DanskeNetbank.jpg" />
+    <Content Include="Content\Dokumenter Bestyrelse\Den rigtige tennisketcher-filer\filelist.xml" />
+    <Content Include="Content\Dokumenter Bestyrelse\Den rigtige tennisketcher-filer\header.htm" />
+    <Content Include="Content\Dokumenter Bestyrelse\Den rigtige tennisketcher-filer\image001.png" />
+    <Content Include="Content\Dokumenter Bestyrelse\Den rigtige tennisketcher-filer\_vti_cnf\header.htm" />
+    <Content Include="Content\Dokumenter Bestyrelse\Den rigtige tennisketcher.htm" />
+    <Content Include="Content\Dokumenter Bestyrelse\Formandens beretning for 2004.htm" />
+    <Content Include="Content\Dokumenter Bestyrelse\Formandens beretning for 2005.htm" />
+    <Content Include="Content\Dokumenter Bestyrelse\Formandens beretning for 2006.htm" />
+    <Content Include="Content\Dokumenter Bestyrelse\Generalforsamling 2007.htm" />
+    <Content Include="Content\Dokumenter Bestyrelse\IndbetalingskortDKBank.jpg" />
+    <Content Include="Content\Dokumenter Bestyrelse\KontoOverførselDanskeBank.jpg" />
+    <Content Include="Content\Dokumenter Bestyrelse\Logning haarbytennisdk.htm" />
+    <Content Include="Content\Dokumenter Bestyrelse\Opgaver i klubbens bestyrelse.htm" />
+    <Content Include="Content\Dokumenter Bestyrelse\Årup-kursus-Lasse-Margit.htm" />
+    <Content Include="Content\Images\2002\TENNIS_AABENHUS_1.JPG" />
+    <Content Include="Content\Images\2002\TENNIS_AABENHUS_2.JPG" />
+    <Content Include="Content\Images\2002\TENNIS_AABENHUS_3.JPG" />
+    <Content Include="Content\Images\2002\TENNIS_BANE1.JPG" />
+    <Content Include="Content\Images\2002\TENNIS_GRILL_1.JPG" />
+    <Content Include="Content\Images\2002\TENNIS_GRILL_2.JPG" />
+    <Content Include="Content\Images\2002\TENNIS_KAREN_IVAN.JPG" />
+    <Content Include="Content\Images\2002\TENNIS_MARGITSERV.JPG" />
+    <Content Include="Content\Images\2002\TENNIS_PETER.JPG" />
+    <Content Include="Content\Images\2002\TENNIS_STEFFEN_FLEMMING.JPG" />
+    <Content Include="Content\Images\2003\Vinter_2003_1.jpg" />
+    <Content Include="Content\Images\2003\Vinter_2003_2.jpg" />
+    <Content Include="Content\Images\2003\Vinter_2003_3.jpg" />
+    <Content Include="Content\Images\2004\Aabenthus2004.jpg" />
+    <Content Include="Content\Images\2004\Aabenthus2004_2.jpg" />
+    <Content Include="Content\Images\2004\Aabenthus2004_3.jpg" />
+    <Content Include="Content\Images\2004\Aabenthus2004_4.jpg" />
+    <Content Include="Content\Images\2004\Aabenthus2004_5.jpg" />
+    <Content Include="Content\Images\2004\Aabenthus2004_Pramier.jpg" />
+    <Content Include="Content\Images\2004\BaneKlarIvanMalthe.jpg" />
+    <Content Include="Content\Images\2004\BaneKlarTromle1.jpg" />
+    <Content Include="Content\Images\2004\BaneKlarTromle2.jpg" />
+    <Content Include="Content\Images\2004\BaneKlarTromle3.jpg" />
+    <Content Include="Content\Images\2005\IMG_1.jpg" />
+    <Content Include="Content\Images\2005\IMG_10.jpg" />
+    <Content Include="Content\Images\2005\IMG_11.jpg" />
+    <Content Include="Content\Images\2005\IMG_12.jpg" />
+    <Content Include="Content\Images\2005\IMG_13.jpg" />
+    <Content Include="Content\Images\2005\IMG_14.jpg" />
+    <Content Include="Content\Images\2005\IMG_15.jpg" />
+    <Content Include="Content\Images\2005\IMG_16.jpg" />
+    <Content Include="Content\Images\2005\IMG_17.jpg" />
+    <Content Include="Content\Images\2005\IMG_18.jpg" />
+    <Content Include="Content\Images\2005\IMG_19.jpg" />
+    <Content Include="Content\Images\2005\IMG_2.jpg" />
+    <Content Include="Content\Images\2005\IMG_20.jpg" />
+    <Content Include="Content\Images\2005\IMG_21.jpg" />
+    <Content Include="Content\Images\2005\IMG_22.jpg" />
+    <Content Include="Content\Images\2005\IMG_23.jpg" />
+    <Content Include="Content\Images\2005\IMG_24.jpg" />
+    <Content Include="Content\Images\2005\IMG_25.jpg" />
+    <Content Include="Content\Images\2005\IMG_26.jpg" />
+    <Content Include="Content\Images\2005\IMG_27.jpg" />
+    <Content Include="Content\Images\2005\IMG_28.jpg" />
+    <Content Include="Content\Images\2005\IMG_29.jpg" />
+    <Content Include="Content\Images\2005\IMG_3.jpg" />
+    <Content Include="Content\Images\2005\IMG_30.jpg" />
+    <Content Include="Content\Images\2005\IMG_31.jpg" />
+    <Content Include="Content\Images\2005\IMG_32.jpg" />
+    <Content Include="Content\Images\2005\IMG_33.jpg" />
+    <Content Include="Content\Images\2005\IMG_34.jpg" />
+    <Content Include="Content\Images\2005\IMG_35.jpg" />
+    <Content Include="Content\Images\2005\IMG_36.jpg" />
+    <Content Include="Content\Images\2005\IMG_37.jpg" />
+    <Content Include="Content\Images\2005\IMG_38.jpg" />
+    <Content Include="Content\Images\2005\IMG_4.jpg" />
+    <Content Include="Content\Images\2005\IMG_5.jpg" />
+    <Content Include="Content\Images\2005\IMG_6.jpg" />
+    <Content Include="Content\Images\2005\IMG_7.jpg" />
+    <Content Include="Content\Images\2005\IMG_8.jpg" />
+    <Content Include="Content\Images\2005\IMG_9.jpg" />
+    <Content Include="Content\Images\2005\TENNIS_AABENHUS_1.JPG" />
+    <Content Include="Content\Images\2005\TENNIS_AABENHUS_2.JPG" />
+    <Content Include="Content\Images\2005\TENNIS_AABENHUS_3.JPG" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_1.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_10.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_11.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_12.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_2.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_3.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_4.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_5.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_6.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_7.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_8.jpg" />
+    <Content Include="Content\Images\2015\Baneklar\20150411_9.jpg" />
+    <Content Include="Content\Images\ad.gif" />
+    <Content Include="Content\Images\Baneklar2015.jpg" />
+    <Content Include="Content\Images\Baneklar_2_2015.jpg" />
+    <Content Include="Content\Images\bg-button.png" />
+    <Content Include="Content\Images\bg-column-left.png" />
+    <Content Include="Content\Images\bg-column-right.png" />
+    <Content Include="Content\Images\bg-input.png" />
+    <Content Include="Content\Images\bg-poster-photo.jpg" />
+    <Content Include="Content\Images\bg-poster-tile.jpg" />
+    <Content Include="Content\Images\bg-poster.jpg" />
+    <Content Include="Content\Images\bold.jpg" />
+    <Content Include="Content\Images\BoldkanonJuniorer.JPG" />
+    <Content Include="Content\Images\bullet.png" />
+    <Content Include="Content\Images\desk1.gif" />
+    <Content Include="Content\Images\desk2.gif" />
+    <Content Include="Content\Images\Dokument16.png" />
+    <Content Include="Content\Images\DTF-logo_nyt.jpg" />
+    <Content Include="Content\Images\favicon.ico" />
+    <Content Include="Content\Images\flag-gb.gif" />
+    <Content Include="Content\Images\GoogleMapTennisBane.JPG" />
+    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_1.JPG" />
+    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_2.JPG" />
+    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_3.JPG" />
+    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_4.JPG" />
+    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_5.JPG" />
+    <Content Include="Content\Images\Haarbytennislogo v2.png" />
+    <Content Include="Content\Images\Haarbytennis_1.jpg" />
+    <Content Include="Content\Images\hallen_liL.jpg" />
+    <Content Include="Content\Images\HB_logo1.JPG" />
+    <Content Include="Content\Images\images.jpg" />
+    <Content Include="Content\Images\Jubilæum 2006\BaneKlarTromle1.jpg" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_1.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_10.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_11.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_12.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_14.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_2.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_3.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_4.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_5.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_7.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_8.JPG" />
+    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_9.JPG" />
+    <Content Include="Content\Images\Juni.gif" />
+    <Content Include="Content\Images\kiraa.gif" />
+    <Content Include="Content\Images\Klubfolder2010.jpg" />
+    <Content Include="Content\Images\Klubhus_1.JPG" />
+    <Content Include="Content\Images\Klubhus_3.JPG" />
+    <Content Include="Content\Images\KommentarerOpgave.htm" />
+    <Content Include="Content\Images\lilledrengtennis.jpg" />
+    <Content Include="Content\Images\LOGOVoksenIntroduktion.jpg" />
+    <Content Include="Content\Images\logo_2007.gif" />
+    <Content Include="Content\Images\MinitennisHal.jpg" />
+    <Content Include="Content\Images\MiniTennisJaTak.jpg" />
+    <Content Include="Content\Images\MinitennisSol.jpg" />
+    <Content Include="Content\Images\Minitennis_1.JPG" />
+    <Content Include="Content\Images\overview.gif" />
+    <Content Include="Content\Images\photo-small-01.jpg" />
+    <Content Include="Content\Images\photo-small-02.jpg" />
+    <Content Include="Content\Images\Redskabsskur_1.jpg" />
+    <Content Include="Content\Images\Reklame0.jpg" />
+    <Content Include="Content\Images\Reklame1.JPG" />
+    <Content Include="Content\Images\Reklame2.JPG" />
+    <Content Include="Content\Images\Reklame3.JPG" />
+    <Content Include="Content\Images\Reklame4.JPG" />
+    <Content Include="Content\Images\Sen.jpg" />
+    <Content Include="Content\Images\Seniorkunst.gif" />
+    <Content Include="Content\Images\sol_dmi.gif" />
+    <Content Include="Content\Images\Sparekassen Fyn_Logo.jpg" />
+    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_1.JPG" />
+    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_2.JPG" />
+    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_3.JPG" />
+    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_4.JPG" />
+    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_5.JPG" />
+    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_6.JPG" />
+    <Content Include="Content\Images\stefan3.jpg" />
+    <Content Include="Content\Images\tau3.jpg" />
+    <Content Include="Content\Images\tennis.gif" />
+    <Content Include="Content\Images\Tennisspiller 1.gif" />
+    <Content Include="Content\Images\TennisspillerGif.gif" />
+    <Content Include="Content\Images\tom.gif" />
+    <Content Include="Content\Images\UndervisJunior2004_1.jpg" />
+    <Content Include="Content\Images\UndervisJunior2004_2.jpg" />
+    <Content Include="Content\Images\voidReklame.jpg" />
+    <Content Include="Content\Images\VoksenIntro.jpg" />
+    <Content Include="Content\Inspiration og instruktion\Personlig træning\Links.txt" />
+    <Content Include="Content\Inspiration og instruktion\Årup-kursus-Lasse-Margit.htm" />
+    <Content Include="Content\Reklamer\Generalforsamling.jpg" />
+    <Content Include="Content\Reklamer\logolink.gif" />
+    <Content Include="Content\Reklamer\Logo_FynskSupprtEl.png" />
+    <Content Include="Content\Reklamer\malerensLagersalg2.jpg" />
+    <Content Include="Content\Reklamer\Reklame1.JPG" />
+    <Content Include="Content\Reklamer\Reklame2.jpg" />
+    <Content Include="Content\Reklamer\Reklame3.jpg" />
+    <Content Include="Content\Reklamer\Reklame4.JPG" />
+    <Content Include="Content\Reklamer\Reklame5.jpg" />
+    <Content Include="Content\Reklamer\Reklame6.JPG" />
+    <Content Include="Content\Reklamer\Reklame7.jpg" />
+    <Content Include="Content\Reklamer\Reklame8.JPG" />
+    <Content Include="Content\Reklamer\Reklamex.JPG" />
+    <Content Include="Content\Reklamer\Reklamey.JPG" />
+    <Content Include="Content\Reklamer\Tenniscampdk.jpg" />
+    <Content Include="Scripts\Default.js" />
+    <Content Include="Shared\Error.aspx" />
+    <Content Include="Styles\OrangeSite.css" />
+    <Content Include="Default.aspx" />
+    <Content Include="Global.asax" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="Admin\Administration.aspx" />
+    <Content Include="UI\BaneBookning.aspx" />
+    <Content Include="UI\Banereservation.aspx" />
+    <Content Include="ErrorPage.aspx" />
+    <Content Include="UI\Default.html" />
+    <Content Include="UI\FindVej.aspx" />
+    <Content Include="UI\Kontingent.aspx" />
+    <Content Include="UI\Popup.aspx" />
+    <Content Include="UI\Skabelon.aspx" />
+    <Content Include="UI\Vedtægter.aspx" />
+    <Content Include="UI\VelkommenVinter.aspx" />
+    <Content Include="UI\VinterTennis.aspx" />
+    <Content Include="UI\Opslagstavle.aspx" />
+    <Content Include="UI\Generalforsamlinger.aspx" />
+    <Content Include="UI\Klubrelationer.aspx" />
+    <Content Include="UI\Kalender.aspx" />
+    <Content Include="UI\Kontakt.aspx" />
+    <Content Include="UI\Nyheder.aspx" />
+    <Content Include="UI\Træning.aspx" />
+    <Content Include="UI\Velkommen.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePassword.aspx.designer.cs">
+      <DependentUpon>ChangePassword.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ChangePasswordSuccess.aspx.designer.cs">
+      <DependentUpon>ChangePasswordSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.cs">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminMedlemmer.aspx.cs">
+      <DependentUpon>AdminMedlemmer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminMedlemmer.aspx.designer.cs">
+      <DependentUpon>AdminMedlemmer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\AdminOrange.Master.cs">
+      <DependentUpon>AdminOrange.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\AdminOrange.Master.designer.cs">
+      <DependentUpon>AdminOrange.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\BaneBooking.aspx.cs">
+      <DependentUpon>BaneBooking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\BaneBooking.aspx.designer.cs">
+      <DependentUpon>BaneBooking.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Dokumenter.aspx.cs">
+      <DependentUpon>Dokumenter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Dokumenter.aspx.designer.cs">
+      <DependentUpon>Dokumenter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Kalender.aspx.cs">
+      <DependentUpon>Kalender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Kvittering.aspx.cs">
+      <DependentUpon>Kvittering.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Kvittering.aspx.designer.cs">
+      <DependentUpon>Kvittering.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\MailAdmin.aspx.cs">
+      <DependentUpon>MailAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\MailAdmin.aspx.designer.cs">
+      <DependentUpon>MailAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Nyheder.aspx.cs">
+      <DependentUpon>Nyheder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Nyheder.aspx.designer.cs">
+      <DependentUpon>Nyheder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Nyhedsbreve.aspx.cs">
+      <DependentUpon>Nyhedsbreve.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Nyhedsbreve.aspx.designer.cs">
+      <DependentUpon>Nyhedsbreve.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="App\State\AdmAppState.cs" />
+    <Compile Include="App\State\AdmMedlemmerState.cs" />
+    <Compile Include="App\ApplicationContext.cs" />
+    <Compile Include="App\AppUser.cs" />
+    <Compile Include="App\Bruger.cs" />
+    <Compile Include="App\ErrorMessage.cs" />
+    <Compile Include="App\Logic\DataGridToExcel.cs" />
+    <Compile Include="App\Logic\LogStatus.cs" />
+    <Compile Include="App\Logic\MailHandler.cs" />
+    <Compile Include="App\Logic\SendAppMail.cs" />
+    <Compile Include="App\UiModelErrorMsg.cs" />
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Global.asax.cs">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="Shared\SiteOrange.Master.cs">
+      <DependentUpon>SiteOrange.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Shared\Skabelon.master.cs">
+      <DependentUpon>Skabelon.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Administration.aspx.cs">
+      <DependentUpon>Administration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Administration.aspx.designer.cs">
+      <DependentUpon>Administration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\BaneBookning.aspx.cs">
+      <DependentUpon>BaneBookning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\BaneBookning.aspx.designer.cs">
+      <DependentUpon>BaneBookning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Banereservation.aspx.cs">
+      <DependentUpon>Banereservation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Banereservation.aspx.designer.cs">
+      <DependentUpon>Banereservation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ErrorPage.aspx.designer.cs">
+      <DependentUpon>ErrorPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\FindVej.aspx.cs">
+      <DependentUpon>FindVej.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\FindVej.aspx.designer.cs">
+      <DependentUpon>FindVej.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Kontingent.aspx.cs">
+      <DependentUpon>Kontingent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Kontingent.aspx.designer.cs">
+      <DependentUpon>Kontingent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Popup.aspx.cs">
+      <DependentUpon>Popup.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Popup.aspx.designer.cs">
+      <DependentUpon>Popup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Skabelon.aspx.cs">
+      <DependentUpon>Skabelon.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Skabelon.aspx.designer.cs">
+      <DependentUpon>Skabelon.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Vedtægter.aspx.cs">
+      <DependentUpon>Vedtægter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Vedtægter.aspx.designer.cs">
+      <DependentUpon>Vedtægter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\VelkommenVinter.aspx.cs">
+      <DependentUpon>VelkommenVinter.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\VelkommenVinter.aspx.designer.cs">
+      <DependentUpon>VelkommenVinter.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\VinterTennis.aspx.cs">
+      <DependentUpon>VinterTennis.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\VinterTennis.aspx.designer.cs">
+      <DependentUpon>VinterTennis.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Opslagstavle.aspx.cs">
+      <DependentUpon>Opslagstavle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Opslagstavle.aspx.designer.cs">
+      <DependentUpon>Opslagstavle.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Generalforsamlinger.aspx.cs">
+      <DependentUpon>Generalforsamlinger.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Generalforsamlinger.aspx.designer.cs">
+      <DependentUpon>Generalforsamlinger.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Klubrelationer.aspx.cs">
+      <DependentUpon>Klubrelationer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Klubrelationer.aspx.designer.cs">
+      <DependentUpon>Klubrelationer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Kalender.aspx.cs">
+      <DependentUpon>Kalender.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Kalender.aspx.designer.cs">
+      <DependentUpon>Kalender.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Kontakt.aspx.cs">
+      <DependentUpon>Kontakt.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Kontakt.aspx.designer.cs">
+      <DependentUpon>Kontakt.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Nyheder.aspx.cs">
+      <DependentUpon>Nyheder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Nyheder.aspx.designer.cs">
+      <DependentUpon>Nyheder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Træning.aspx.cs">
+      <DependentUpon>Træning.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Træning.aspx.designer.cs">
+      <DependentUpon>Træning.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Velkommen.aspx.cs">
+      <DependentUpon>Velkommen.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Velkommen.aspx.designer.cs">
+      <DependentUpon>Velkommen.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Content\Admin dokumenter\Regnskab\" />
+    <Folder Include="Content\Images\2013\MichaelGrube\" />
+    <Folder Include="NewFolder1\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Shared\SiteOrange.Master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Shared\Skabelon.master" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\AdminOrange.Master" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2005-11-16.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2006-02-16.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2006-05-02.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2006-05-29.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2006-11-08.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2007-02-14.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2008-10-07.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2009-02-24.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2009-04-07.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2009-10-22.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2010-03-04.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2010-07-28.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2010-09-09.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2010-10-06.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2010-10-24.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2011-01-05.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2011-03-09.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2011-06-30.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2012-02-15.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2012-10-07.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2013-01-08.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2013-03-20.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2014-05-05.pdf" />
+    <Content Include="Content\Admin dokumenter\Tennisklub Opgaver 2014.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2013-05-14.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2013-05-30.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2013-06-14.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2013-06-19.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2013-07-04.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2013-10-10.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2013-11-20.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2014-02-26.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2014-05-20.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2014-08-12.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2014-09-24.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2015-01-14_og_2015_02_04.pdf" />
+    <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2015-05-26.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\Formandens Beretning2012.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\Formandens Beretning2013.pdf" />
+    <Content Include="Content\Dokumenter Bestyrelse\Formandens beretning2014.pdf" />
+    <Content Include="Content\Dokumenter Bestyrelse\Formandens beretning2015.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\Generalforsamling 2006.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\Generalforsamling 2007.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\Generalforsamling 2008.mht" />
+    <None Include="Content\Dokumenter Bestyrelse\Generalforsamling 2009.mht" />
+    <None Include="Content\Dokumenter Bestyrelse\Generalforsamling 2011.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\Generalforsamling 2012.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\Generalforsamling 2013.pdf" />
+    <Content Include="Content\Dokumenter Bestyrelse\Generalforsamling 2015.pdf" />
+    <Content Include="Content\Dokumenter Bestyrelse\Generalforsamling 2014.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\Haarby Tennis Annonce.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\Tennisfolder_2013.pdf" />
+    <None Include="Content\Dokumenter Bestyrelse\TennisHæfte_2010_PDF.pdf" />
+    <Content Include="Web.sitemap" />
+    <Content Include="Content\Dokumenter Bestyrelse\Tilladelse_Kørsel_stierne_Kommune.PDF" />
+    <None Include="Content\Indbydelser og Aktiviteter\Banetilpasning.pdf" />
+    <None Include="Content\Indbydelser og Aktiviteter\Indendørstennis_2013.pdf" />
+    <None Include="Content\Indbydelser og Aktiviteter\Invitation_turnering_2013.pdf" />
+    <Content Include="Content\Indbydelser og Aktiviteter\Tennisfolder_2014.pdf" />
+    <Content Include="Content\Indbydelser og Aktiviteter\Tennisfolder_2015.pdf" />
+    <None Include="Content\Indbydelser og Aktiviteter\TennisKlubaften2013.pdf" />
+    <Content Include="Content\Inspiration og instruktion\Inspirationstræning MGA August 2013.docx" />
+    <Content Include="Content\Inspiration og instruktion\Inspirationstræning MGA August 2013.pdf" />
+    <Content Include="Content\Inspiration og instruktion\Noter fra K1-kursus Oktober 2013.docx" />
+    <Content Include="Content\Inspiration og instruktion\Noter fra K1-kursus Oktober 2013.pdf" />
+    <Content Include="Content\Inspiration og instruktion\Noter fra K2-kursus Marts 20114.docx" />
+    <Content Include="Content\Inspiration og instruktion\Noter til inspirationstræning.docx" />
+    <Content Include="Content\Inspiration og instruktion\Tennis Instruktioner fra Aarup 2006.doc" />
+    <Content Include="Content\Inspiration og instruktion\Tennis Instruktioner fra Aarup 2006.pdf" />
+    <Content Include="Content\Inspiration og instruktion\Årup-kursus-Lasse-Margit.doc" />
+    <Content Include="Content\Inspiration og instruktion\Årup-kursus-Lasse-Margit.pdf" />
+    <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\ASPNetTennis.pubxml" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLayer\BusinessLayer.csproj">
+      <Project>{D46A835C-911A-463C-A27B-0F8197826589}</Project>
+      <Name>BusinessLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\HaarbyTennis.Utilities\HaarbyTennis.Utilities.csproj">
+      <Project>{694c1a76-636f-4bbe-94ab-442d9bd5a8e4}</Project>
+      <Name>HaarbyTennis.Utilities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MemberShipProvider\AccessMemberShipProvider\AccessMemberShipProvider\AccessMemberShipProvider.csproj">
+      <Project>{9B00F0B0-EC47-4E02-A0CC-2A68558214B7}</Project>
+      <Name>AccessMemberShipProvider</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ModelTennis\ModelTennis.csproj">
+      <Project>{7455281C-802F-4D08-BF00-B386257CCDF4}</Project>
+      <Name>ModelTennis</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1965</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

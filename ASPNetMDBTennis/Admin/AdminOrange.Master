@@ -1,0 +1,81 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="AdminOrange.master.cs" Inherits="ASPNetMDBTennis.Admin.AdminOrange" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+ "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<meta name="description" content="Description of your web page goes here." />
+<meta name="keywords" content="Keywords for you web page go here. Each keyword or group of keyword phrases are separated by a comma. Keep this  list short and relevant to the content and title of this specific page." />
+<title><asp:ContentPlaceHolder ID="TitleContent" runat="server" /></title>
+<link rel="shortcut icon" href="../../Content/images/favicon.ico" />
+<link href="/Styles/OrangeSite.css" rel="stylesheet" type="text/css" />
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js" type="text/javascript"></script>    
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/jquery-ui.min.js" type="text/javascript"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.10/i18n/jquery-ui-i18n.min.js" type="text/javascript"></script>
+  
+
+
+
+
+<asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+
+
+
+</head>
+<body>
+  <form id="Form1" runat="server">
+        <asp:ScriptManager ID="ScriptManager1" runat="server" EnableCdn="false" EnablePageMethods="true" />
+        <div class="none"><a href="#maincontent">skip to the main content area of this page</a></div>
+        <div class="header-container">
+            
+          
+              <div class="logo">Haarby Tennisklub</div>
+            
+            <div class="clear"></div>
+        </div>
+        <div class="poster-container-no-image">
+            <div class="poster-inner"> </div>
+        </div>
+        <div class="nav-main">
+            <div id="Admin" runat="server" visible="true">
+            <ul>
+    
+                <li> <a href="Administration.aspx">Administration og vejledning</a></li>                
+                <li> <a href="AdminMedlemmer.aspx">Medlemmer</a></li>
+                <li> <a href="/Admin/Nyhedsbreve.aspx">Nyhedsbrev</a></li>
+                <li> <a href="/Admin/Kalender.aspx">Kalender</a></li>
+                <li> <a href="/Admin/Nyheder.aspx">Nyheder</a></li>  
+                <li> <a href="/Admin/MailAdmin.aspx">Mail admin Azero</a></li>  
+                <li> <a href="/Admin/Dokumenter.aspx">Dokumenter</a></li>           
+           
+
+            </ul>
+            </div>
+        </div>
+        <div class="content-container">
+            <div class="content-container-inner-admin">
+
+               <div class="content-main">
+                    <a name="maincontent" id="maincontent"></a>
+        
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server" />
+                  
+                </div>
+		      
+              
+                <div class="clear"></div>
+            </div> <!-- class="content-container-inner" -->
+        </div> <!-- slut class="content-container" -->
+        <div class="footer">
+            <div class="nav-footer">
+                <ul>
+          
+                </ul>
+                <p class="copyright">&copy; 2015 Haarby Tennisklub</p>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
+
