@@ -78,6 +78,8 @@
     <Content Include="Admin\Nyheder.aspx" />
     <Content Include="Admin\Nyhedsbreve.aspx" />
     <Content Include="Carousel.html" />
+    <Content Include="Content\Dokumenter Bestyrelse\BetalingNetbankIndbetalingskortl.PNG" />
+    <Content Include="Content\Dokumenter Bestyrelse\BetalingNetbankOverfoersel.PNG" />
     <Content Include="Content\Dokumenter Bestyrelse\DanskeNetbank.jpg" />
     <Content Include="Content\Dokumenter Bestyrelse\Den rigtige tennisketcher-filer\filelist.xml" />
     <Content Include="Content\Dokumenter Bestyrelse\Den rigtige tennisketcher-filer\header.htm" />
@@ -157,6 +159,31 @@
     <Content Include="Content\Images\2005\TENNIS_AABENHUS_1.JPG" />
     <Content Include="Content\Images\2005\TENNIS_AABENHUS_2.JPG" />
     <Content Include="Content\Images\2005\TENNIS_AABENHUS_3.JPG" />
+    <Content Include="Content\Images\2006\BaneKlarTromle1.jpg" />
+    <Content Include="Content\Images\2006\Grilltennis_2006_1.JPG" />
+    <Content Include="Content\Images\2006\Grilltennis_2006_2.JPG" />
+    <Content Include="Content\Images\2006\Grilltennis_2006_3.JPG" />
+    <Content Include="Content\Images\2006\Grilltennis_2006_4.JPG" />
+    <Content Include="Content\Images\2006\Grilltennis_2006_5.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_1.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_10.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_11.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_12.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_14.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_2.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_3.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_4.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_5.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_7.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_8.JPG" />
+    <Content Include="Content\Images\2006\Jubilæum_2006_9.JPG" />
+    <Content Include="Content\Images\2006\SpotKursus_2006_1.JPG" />
+    <Content Include="Content\Images\2006\SpotKursus_2006_2.JPG" />
+    <Content Include="Content\Images\2006\SpotKursus_2006_3.JPG" />
+    <Content Include="Content\Images\2006\SpotKursus_2006_4.JPG" />
+    <Content Include="Content\Images\2006\SpotKursus_2006_5.JPG" />
+    <Content Include="Content\Images\2006\SpotKursus_2006_6.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\Billede_1.jpg" />
     <Content Include="Content\Images\2015\Baneklar\20150411_1.jpg" />
     <Content Include="Content\Images\2015\Baneklar\20150411_10.jpg" />
     <Content Include="Content\Images\2015\Baneklar\20150411_11.jpg" />
@@ -176,42 +203,17 @@
     <Content Include="Content\Images\bg-column-left.png" />
     <Content Include="Content\Images\bg-column-right.png" />
     <Content Include="Content\Images\bg-input.png" />
-    <Content Include="Content\Images\bg-poster-photo.jpg" />
-    <Content Include="Content\Images\bg-poster-tile.jpg" />
-    <Content Include="Content\Images\bg-poster.jpg" />
     <Content Include="Content\Images\bold.jpg" />
     <Content Include="Content\Images\BoldkanonJuniorer.JPG" />
-    <Content Include="Content\Images\bullet.png" />
-    <Content Include="Content\Images\desk1.gif" />
-    <Content Include="Content\Images\desk2.gif" />
-    <Content Include="Content\Images\Dokument16.png" />
     <Content Include="Content\Images\DTF-logo_nyt.jpg" />
     <Content Include="Content\Images\favicon.ico" />
     <Content Include="Content\Images\flag-gb.gif" />
     <Content Include="Content\Images\GoogleMapTennisBane.JPG" />
-    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_1.JPG" />
-    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_2.JPG" />
-    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_3.JPG" />
-    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_4.JPG" />
-    <Content Include="Content\Images\Grilltennis aug. 2006\Grilltennis_2006_5.JPG" />
     <Content Include="Content\Images\Haarbytennislogo v2.png" />
     <Content Include="Content\Images\Haarbytennis_1.jpg" />
     <Content Include="Content\Images\hallen_liL.jpg" />
     <Content Include="Content\Images\HB_logo1.JPG" />
     <Content Include="Content\Images\images.jpg" />
-    <Content Include="Content\Images\Jubilæum 2006\BaneKlarTromle1.jpg" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_1.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_10.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_11.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_12.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_14.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_2.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_3.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_4.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_5.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_7.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_8.JPG" />
-    <Content Include="Content\Images\Jubilæum 2006\Jubilæum_2006_9.JPG" />
     <Content Include="Content\Images\Juni.gif" />
     <Content Include="Content\Images\kiraa.gif" />
     <Content Include="Content\Images\Klubfolder2010.jpg" />
@@ -234,24 +236,17 @@
     <Content Include="Content\Images\Reklame2.JPG" />
     <Content Include="Content\Images\Reklame3.JPG" />
     <Content Include="Content\Images\Reklame4.JPG" />
+    <Content Include="Content\Images\Reklame9.JPG" />
     <Content Include="Content\Images\Sen.jpg" />
     <Content Include="Content\Images\Seniorkunst.gif" />
     <Content Include="Content\Images\sol_dmi.gif" />
     <Content Include="Content\Images\Sparekassen Fyn_Logo.jpg" />
-    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_1.JPG" />
-    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_2.JPG" />
-    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_3.JPG" />
-    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_4.JPG" />
-    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_5.JPG" />
-    <Content Include="Content\Images\Spotkursus aug. 2006\SpotKursus_2006_6.JPG" />
     <Content Include="Content\Images\stefan3.jpg" />
     <Content Include="Content\Images\tau3.jpg" />
     <Content Include="Content\Images\tennis.gif" />
     <Content Include="Content\Images\Tennisspiller 1.gif" />
     <Content Include="Content\Images\TennisspillerGif.gif" />
     <Content Include="Content\Images\tom.gif" />
-    <Content Include="Content\Images\UndervisJunior2004_1.jpg" />
-    <Content Include="Content\Images\UndervisJunior2004_2.jpg" />
     <Content Include="Content\Images\voidReklame.jpg" />
     <Content Include="Content\Images\VoksenIntro.jpg" />
     <Content Include="Content\Inspiration og instruktion\Personlig træning\Links.txt" />
@@ -283,6 +278,8 @@
     <Content Include="UI\BaneBookning.aspx" />
     <Content Include="UI\Banereservation.aspx" />
     <Content Include="ErrorPage.aspx" />
+    <Content Include="UI\Billeder.aspx" />
+    <Content Include="UI\Billeder2014.aspx" />
     <Content Include="UI\Default.html" />
     <Content Include="UI\FindVej.aspx" />
     <Content Include="UI\Kontingent.aspx" />
@@ -468,6 +465,20 @@
     <Compile Include="ErrorPage.aspx.designer.cs">
       <DependentUpon>ErrorPage.aspx</DependentUpon>
     </Compile>
+    <Compile Include="UI\Billeder.aspx.cs">
+      <DependentUpon>Billeder.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Billeder.aspx.designer.cs">
+      <DependentUpon>Billeder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Billeder2014.aspx.cs">
+      <DependentUpon>Billeder2014.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Billeder2014.aspx.designer.cs">
+      <DependentUpon>Billeder2014.aspx</DependentUpon>
+    </Compile>
     <Compile Include="UI\FindVej.aspx.cs">
       <DependentUpon>FindVej.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -577,8 +588,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\Admin dokumenter\Regnskab\" />
-    <Folder Include="Content\Images\2013\MichaelGrube\" />
-    <Folder Include="NewFolder1\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Account\Web.config" />
@@ -628,6 +637,7 @@
     <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2014-09-24.pdf" />
     <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2015-01-14_og_2015_02_04.pdf" />
     <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2015-05-26.pdf" />
+    <Content Include="Content\Admin dokumenter\BaneklargoeringTodoListe.pdf" />
     <None Include="Content\Dokumenter Bestyrelse\Formandens Beretning2012.pdf" />
     <None Include="Content\Dokumenter Bestyrelse\Formandens Beretning2013.pdf" />
     <Content Include="Content\Dokumenter Bestyrelse\Formandens beretning2014.pdf" />

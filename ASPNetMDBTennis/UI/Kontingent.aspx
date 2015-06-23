@@ -70,12 +70,12 @@
     <table>
             <tr>
                 <td>
-		    <img alt="Betaling via Netbank Betalingskort" src="../Content/Dokumenter bestyrelse/IndbetalingskortDKBank.jpg"  width="70%" border="2" /> 
+		    <img alt="Betaling via Netbank Betalingskort" src="../Content/Dokumenter bestyrelse/BetalingNetbankIndbetalingskortl.PNG"  width="70%" border="2" /> 
             <br />
     
             <h3>Eksempel på Kontooverførsel.</h3>
             
-			<img alt="Betaling via Netbank kontooverførsel" src="../Content/Dokumenter bestyrelse/KontoOverførselDanskeBank.jpg" width="70%" border="2">  </img> 
+			<img alt="Betaling via Netbank kontooverførsel" src="../Content/Dokumenter bestyrelse/BetalingNetbankOverfoersel.PNG" width="70%" border="2">  </img> 
                 </td>
            </tr>
     </table>

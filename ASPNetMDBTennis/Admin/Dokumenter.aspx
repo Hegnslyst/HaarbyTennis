@@ -11,6 +11,15 @@
     <br />
     
     
+       <h2>Baneklargøring</h2>     
+     <ul>
+            <li> 
+                
+                <a href="../Content/Admin dokumenter/BaneklargoeringTodoListe.pdf" target="_blank">TODO-Liste fra Ole</a>   
+            </li>
+         </ul>
+    <br />
+
 
   <div id="accordion">
 
@@ -20,7 +29,7 @@
 
      <ul>
         <li>     
-        <a href="../Content/Admin dokumenter/Bestyrelsesmøder/Bestyrelsesmøde Bestyrelsesmøde 2015-05-26" target="_blank">Bestyrelsesmøde 2015-05-26</a> 
+        <a href="../Content/Admin dokumenter/Bestyrelsesmøder/Bestyrelsesmøde 2015-05-26.pdf" target="_blank">Bestyrelsesmøde 2015-05-26</a> 
         </li>
        
     </ul>

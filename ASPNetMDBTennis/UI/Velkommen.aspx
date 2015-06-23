@@ -24,7 +24,7 @@
         
         <div class="three-column-container">
             <div class="three-column-left">
-                <h3>Veklkommen til alle...</h3>
+                <h3>Velkommen til alle...</h3>
                 <p>De gode baner er klargjort og venter kun på at bliv brugt. Haarby tennisklub fortsætter med 
                     klubaften om mandagen hvor alle seniorspillere er velkomne. 
                     Mød op og spil tennis. Der er gratis kaffe og the. <br />
