@@ -638,6 +638,7 @@
     <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2015-01-14_og_2015_02_04.pdf" />
     <Content Include="Content\Admin dokumenter\Bestyrelsesmøder\Bestyrelsesmøde 2015-05-26.pdf" />
     <Content Include="Content\Admin dokumenter\BaneklargoeringTodoListe.pdf" />
+    <Content Include="Content\Admin dokumenter\Vejledning Administration.pdf" />
     <None Include="Content\Dokumenter Bestyrelse\Formandens Beretning2012.pdf" />
     <None Include="Content\Dokumenter Bestyrelse\Formandens Beretning2013.pdf" />
     <Content Include="Content\Dokumenter Bestyrelse\Formandens beretning2014.pdf" />
