@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Shared/SiteOrange.Master" CodeBehind="Billeder.aspx.cs" Inherits="ASPNetMDBTennis.UI.Billeder" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Shared/SiteOrange.Master" CodeBehind="Billeder2013.aspx.cs" Inherits="ASPNetMDBTennis.UI.Billeder2013" %>
 <%@ MasterType  virtualPath="~/Shared/SiteOrange.Master"%> 
 
 
@@ -11,7 +11,8 @@
 
    
     
-  <h1 class="first">Billeder fra klargøringen </h1>
+  <h1 class="first">Inspirationsdag med Michael Grube 2013 </h1>
+    <h3 class="first">Foto: Lasse Jørgensen</h3>
         <div class="container">
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -27,45 +28,52 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_1.jpg" alt="Chania" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0002.jpg" alt="Chania"  >
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_2.jpg" alt="Chania" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0003.jpg" alt="Chania" >
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_3.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0006.jpg" alt="Flower">
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_4.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0007.jpg" alt="Flower">
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_5.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0009.jpg" alt="Flower">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_6.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0012.jpg" alt="Flower">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_7.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0015.jpg" alt="Flower">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_8.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0017.jpg" alt="Flower">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_9.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0019.jpg" alt="Flower">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_10.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0024.jpg" alt="Flower">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_11.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0035.jpg" alt="Flower">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_12.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0048.jpg" alt="Flower">
                 </div>
+                <div class="item">
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0051.jpg" alt="Flower">
+                </div>
+                <div class="item">
+                    <img src="../Content/Images/2013/MichaelGrube/DSC_0055.jpg" alt="Flower">
+                </div>
+                
                 
             </div>
 

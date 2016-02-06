@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Shared/SiteOrange.Master" CodeBehind="Billeder.aspx.cs" Inherits="ASPNetMDBTennis.UI.Billeder" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Shared/SiteOrange.Master" CodeBehind="Billeder2015_Mesterskab.aspx.cs" Inherits="ASPNetMDBTennis.UI.Billeder2015_Mesterskab" %>
 <%@ MasterType  virtualPath="~/Shared/SiteOrange.Master"%> 
 
 
@@ -11,7 +11,8 @@
 
    
     
-  <h1 class="first">Billeder fra klargøringen </h1>
+  <h1 class="first">Præmieoverrækkelsen klubmesterskabet 2015 </h1>
+   <h3 class="first">Foto: Lasse Jørgensen</h3>
         <div class="container">
         <br>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -27,44 +28,50 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_1.jpg" alt="Chania" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_001.jpg" alt="Chania" width="460" >
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_2.jpg" alt="Chania" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_002.jpg" alt="Chania" width="460" >
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_3.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_003.jpg" alt="Flower" width="460">
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_4.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_004.jpg" alt="Flower" width="460">
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_5.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_005.jpg" alt="Flower" width="460">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_6.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_006.jpg" alt="Flower" width="460">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_7.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_007.jpg" alt="Flower" width="460">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_8.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_008.jpg" alt="Flower" width="460">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_9.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_009.jpg" alt="Flower" width="460">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_10.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_010.jpg" alt="Flower" width="460">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_11.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_011.jpg" alt="Flower" width="460">
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_12.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_012.jpg" alt="Flower" width="460">
+                </div>
+                <div class="item">
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_013.jpg" alt="Flower" width="460">
+                </div>
+                <div class="item">
+                    <img src="../Content/Images/2015/Klubmesterskab/Billede_014.jpg" alt="Flower" width="460">
                 </div>
                 
             </div>

@@ -35,7 +35,7 @@ namespace ASPNetMDBTennis
 
 
             }
-            Response.Redirect("/UI/Velkommen.aspx", true);
+            Response.Redirect("/UI/VelkommenVinter.aspx", true);
             //Response.Redirect("/Admin/Administration.aspx", true);
         }
     }

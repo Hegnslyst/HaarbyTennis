@@ -71,14 +71,16 @@ function checkTimer() {
             <div id="Soeg" runat="server" visible="true">
             <ul>
     
-                <li> <a href="/UI/Velkommen.aspx">Hjem</a></li>
+                <li> <a href="/UI/VelkommenVinter.aspx">Hjem</a></li>
                 <li> <a href="/UI/Kontakt.aspx">Kontakt bestyrelsen</a></li>
                 <li> <a href="/UI/Kalender.aspx">Kalender</a></li>
                 <li> <a href="/UI/Nyheder.aspx">Nyheder</a></li>
                 <li> <a href="/UI/Træning.aspx">Træning</a></li>
                 <li> <a href="/UI/FindVej.aspx">Find vej</a></li>
-                <li><a href="/UI/Billeder.aspx">Billeder 2015</a></li>
-                <li><a href="/UI/Billeder2014.aspx">Billeder 2014</a></li>
+                <li><a href="/UI/Billeder2013.aspx">Billeder inspirations dag 2013</a></li>
+                <li><a href="/UI/Billeder2015.aspx">Billeder baneklar 2015</a></li>
+                <li><a href="/UI/Billeder2014.aspx">Billeder Reklamesøjle 2015</a></li>
+                <li><a href="/UI/Billeder2015_Mesterskab.aspx">Billeder Klubmesterskab 2015</a></li>
                
                        
 

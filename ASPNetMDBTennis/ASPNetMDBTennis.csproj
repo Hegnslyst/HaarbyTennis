@@ -183,7 +183,19 @@
     <Content Include="Content\Images\2006\SpotKursus_2006_4.JPG" />
     <Content Include="Content\Images\2006\SpotKursus_2006_5.JPG" />
     <Content Include="Content\Images\2006\SpotKursus_2006_6.JPG" />
-    <Content Include="Content\Images\2013\MichaelGrube\Billede_1.jpg" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0002.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0003.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0006.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0009.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0012.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0015.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0017.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0019.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0024.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0035.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0048.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0051.JPG" />
+    <Content Include="Content\Images\2013\MichaelGrube\DSC_0055.JPG" />
     <Content Include="Content\Images\2015\Baneklar\20150411_1.jpg" />
     <Content Include="Content\Images\2015\Baneklar\20150411_10.jpg" />
     <Content Include="Content\Images\2015\Baneklar\20150411_11.jpg" />
@@ -196,6 +208,37 @@
     <Content Include="Content\Images\2015\Baneklar\20150411_7.jpg" />
     <Content Include="Content\Images\2015\Baneklar\20150411_8.jpg" />
     <Content Include="Content\Images\2015\Baneklar\20150411_9.jpg" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_001.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_002.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_003.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_004.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_005.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_006.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_007.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_008.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_009.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_010.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_011.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_012.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_013.JPG" />
+    <Content Include="Content\Images\2015\Klubmesterskab\Billede_014.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_1.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_10.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_11.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_12.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_13.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_14.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_15.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_16.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_17.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_2.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_3.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_4.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_5.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_6.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_7.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_8.JPG" />
+    <Content Include="Content\Images\2015\ReklameSoejle\Billede_9.JPG" />
     <Content Include="Content\Images\ad.gif" />
     <Content Include="Content\Images\Baneklar2015.jpg" />
     <Content Include="Content\Images\Baneklar_2_2015.jpg" />
@@ -279,6 +322,9 @@
     <Content Include="UI\Banereservation.aspx" />
     <Content Include="ErrorPage.aspx" />
     <Content Include="UI\Billeder.aspx" />
+    <Content Include="UI\Billeder2013.aspx" />
+    <Content Include="UI\Billeder2015_Mesterskab.aspx" />
+    <Content Include="UI\Billeder2015.aspx" />
     <Content Include="UI\Billeder2014.aspx" />
     <Content Include="UI\Default.html" />
     <Content Include="UI\FindVej.aspx" />
@@ -471,6 +517,27 @@
     </Compile>
     <Compile Include="UI\Billeder.aspx.designer.cs">
       <DependentUpon>Billeder.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Billeder2013.aspx.cs">
+      <DependentUpon>Billeder2013.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Billeder2013.aspx.designer.cs">
+      <DependentUpon>Billeder2013.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Billeder2015_Mesterskab.aspx.cs">
+      <DependentUpon>Billeder2015_Mesterskab.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Billeder2015_Mesterskab.aspx.designer.cs">
+      <DependentUpon>Billeder2015_Mesterskab.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UI\Billeder2015.aspx.cs">
+      <DependentUpon>Billeder2015.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UI\Billeder2015.aspx.designer.cs">
+      <DependentUpon>Billeder2015.aspx</DependentUpon>
     </Compile>
     <Compile Include="UI\Billeder2014.aspx.cs">
       <DependentUpon>Billeder2014.aspx</DependentUpon>

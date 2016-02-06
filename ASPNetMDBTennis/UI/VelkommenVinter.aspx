@@ -11,7 +11,7 @@
 
    
     
-  <h1 class="first">Velkommen til vinter sæson 2014/2015</h1>
+  <h1 class="first">Velkommen til vinter sæson 2015/2016</h1>
         <div class="photo-container align-left" style="width:280px;">
             <div class="photo-content"> <img src="../../Content/images/MinitennisSol.jpg" alt="Minitennis "  width="280px;" /> </div>
            
@@ -37,7 +37,7 @@
                 <p>Der spilles om lørdagen, men holdet er besat. Måske er du frisk næste vinter??? 
 
                     Mulighederne er mange i klubben og du kan læser mere om klubben
-                    under "klubfolder 2014". Hvis du er i tvivl ringer du bare til en fra bestyrelsen. 
+                    under "klubfolder 2015". Hvis du er i tvivl ringer du bare til en fra bestyrelsen. 
                 </p>
             </div>
             <div class="three-column-right">

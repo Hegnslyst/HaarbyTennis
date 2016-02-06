@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Shared/SiteOrange.Master" CodeBehind="Billeder.aspx.cs" Inherits="ASPNetMDBTennis.UI.Billeder" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" MasterPageFile="~/Shared/SiteOrange.Master" CodeBehind="Billeder2015.aspx.cs" Inherits="ASPNetMDBTennis.UI.Billeder2015" %>
 <%@ MasterType  virtualPath="~/Shared/SiteOrange.Master"%> 
 
 
@@ -11,10 +11,11 @@
 
    
     
-  <h1 class="first">Billeder fra klargøringen </h1>
+  <h1 class="first">Baneklargøringen 2015 </h1>
+    <h3 class="first">Foto: Lasse Jørgensen</h3>
         <div class="container">
-        <br>
-        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        </BR>
+        <div id="myCarousel" class="carousel slide"  data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
                 <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -27,44 +28,44 @@
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
                     
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_1.jpg" alt="Chania" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_1.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_2.jpg" alt="Chania" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_2.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_3.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_3.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_4.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_4.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
 
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_5.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_5.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_6.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_6.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_7.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_7.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_8.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_8.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_9.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_9.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_10.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_10.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_11.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_11.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
                 <div class="item">
-                    <img src="../Content/Images/2013/MichaelGrube/Billede_12.jpg" alt="Flower" width="460" height="345"/>
+                    <img src="../Content/Images/2015/Baneklar/20150411_12.jpg" alt="Baneklargøringen 2015" width="460" >
                 </div>
                 
             </div>
