@@ -1,4 +1,5 @@
 
+
 01-06-2015: Bootstrap carousel. 
 			Nyt Fav. Icon.
 			Resize image BaneKlar2015.jpg
