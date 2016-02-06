@@ -741,6 +741,7 @@
     <Content Include="Content\Inspiration og instruktion\Årup-kursus-Lasse-Margit.doc" />
     <Content Include="Content\Inspiration og instruktion\Årup-kursus-Lasse-Margit.pdf" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\ASPNetMDBTennis.pubxml" />
     <None Include="Properties\PublishProfiles\ASPNetTennis.pubxml" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
